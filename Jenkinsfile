@@ -9,7 +9,7 @@ pipeline {
                 sh '''
                 pwd
                 whoami
-                git fetch https://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@github.com/rahulmula/java-sample.git
+                git clone https://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@github.com/rahulmula/java-sample.git
                 wget https://download.java.net/java/GA/jdk13.0.1/cec27d702aa74d5a8630c65ae61e4305/9/GPL/openjdk-13.0.1_linux-x64_bin.tar.gz
                 tar -xvf openjdk-13.0.1_linux-x64_bin.tar.gz
                 sudo cp -r jdk-13.0.1 /opt/; sudo rm -r jdk-13.0.1
