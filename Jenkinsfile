@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                git branch: 'main', credentialsId: 'Github_cred', url: 'https://github.com/rahulmula/java-sample.git'
+                //git branch: 'main', credentialsId: 'Github_cred', url: 'https://github.com/rahulmula/java-sample.git'
                 sh '''
                 pwd
                 whoami
